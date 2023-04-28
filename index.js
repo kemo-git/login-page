@@ -138,7 +138,7 @@ theForm.addEventListener("submit", function (event) {
     localStorage.setItem("userPass", thePassValue);
 
     // Redirect the user to the next page
-    window.location.href = "G:prog-projectsgithub\t2-smartAspconfirmation.html";
+    window.location.href = "../t2-smartAsp/confirmation.html";
   }
 });
 
