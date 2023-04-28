@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>your data confirmed</title>
+  </head>
+  <body>
+    <div id="resultt"></div>
+    <script>
+      // Retrieve the form data from localStorage
+      let getName = localStorage.getItem("userName");
+      let getEmail = localStorage.getItem("userEmail");
+      let getPassword = localStorage.getItem("userPass");
+
+      //display the form data on the screen
+      let theDisplayedData = document.querySelector("#resultt");
+      theDisplayedData.innerHTML = `<h2>thank you for submitting </h>
+        <p>name:  <strong>${getName}</strong></p>
+        <p>Email:  <strong>${getEmail}</strong></p>
+        <p>Password:  <strong>${getPassword}</strong></p>`;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,126 @@
+:root {
+  --main-color: #ffffff;
+  --secondary-color: #f0f0f0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Cairo", sans-serif;
+}
+.secContainer {
+  width: 1000px;
+  margin: 20px auto;
+  border: 1px solid #f0f0f0;
+  border-bottom: 3px solid #f0f0f0;
+  height: fit-content;
+}
+.secHeader {
+  background-color: var(--secondary-color);
+  font-size: 18px;
+  letter-spacing: 0;
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(57, 57, 57);
+  padding-left: 16px;
+}
+
+.secBody {
+  font-size: 16px;
+  letter-spacing: 0;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(57, 57, 57);
+  background-color: var(--main-color);
+  padding: 16px;
+}
+.inputcontainer {
+  position: relative;
+  margin-bottom: -18px;
+}
+.AffiliateContian {
+  margin-bottom: -19px;
+}
+label {
+  font-size: 16px;
+  letter-spacing: 0;
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(57, 57, 57);
+}
+.labAndError {
+  position: relative;
+  left: 162px;
+  top: -28px;
+}
+input {
+  height: 32px;
+  font-size: 16px;
+  letter-spacing: 0;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  width: 280px;
+}
+
+p.errorr {
+  font-size: 14px;
+  letter-spacing: 0;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(255, 0, 0);
+  margin-top: -5px;
+}
+/* p.errorr.empty,p.errorr.invald {
+display: none;
+} */
+
+p.warning {
+  font-size: 10px;
+  letter-spacing: 0;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(57, 57, 57);
+  margin-bottom: 0;
+}
+.termOfCond {
+  background-color: #fbfaec;
+  padding: 0 20px;
+  margin: 20px;
+  display: b;
+  display: flex;
+  align-items: center;
+  height: 46px;
+}
+.termOfCond p {
+  font-size: 16px;
+  letter-spacing: 0;
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(57, 57, 57);
+}
+.termOfCond span {
+  font-size: 16px;
+  letter-spacing: 0;
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(0, 86, 179);
+}
+#checkboxx {
+  position: relative;
+  left: -106px;
+}
+.signnnUp {
+  color: white;
+  background-color: #339fd0;
+  width: fit-content;
+  border-radius: 9px;
+  border: 1px solid;
+  padding: 10px;
+  height: 34px;
+  position: absolute;
+  left: 170px;
+}
